@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-layout-header{
+  /* background-color: white !important; */
+  padding: 0px !important;
+  width: auto;
+  min-height: 84px !important;
+  line-height: 84px !important;
+  height: auto !important;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-layout-content{
+  min-height: 80vh !important;
+  background-color: white !important;
+}
+.ant-layout-footer{
+  min-height: 10vh;
+  /* height: 10vh; */
+  background-color: white !important;
+  border-top: 1px solid #f0f0f0;
+  padding: 0px !important;
+} 
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.ant-menu-horizontal{
+  border: none !important;
+}
+
+.align-text-left {
+  text-align: left !important;
+}
+
+.align-text-end {
+  text-align: end !important;
+}

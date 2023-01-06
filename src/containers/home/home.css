@@ -1,0 +1,13 @@
+.post-content{
+    text-align: justify;
+}
+
+.post-sect{
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.news-med-sect{
+    max-height: 80vh;
+    overflow: auto;
+}

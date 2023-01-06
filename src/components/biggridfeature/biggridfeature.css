@@ -1,0 +1,144 @@
+.big-news-grid,
+.big-news-grid .ant-card-cover img {
+    border-radius: 16px;
+}
+
+.big-news-grid {
+    box-shadow: 0px 38px 49px rgba(129, 151, 163, 0.22) !important;
+}
+
+.big-news-grid .share-icon {
+    border-radius: 50%;
+    background: rgb(250, 173, 20);
+    line-height: inherit;
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+    padding-left: 8px;
+    color: #11151F;
+}
+
+.left-text-align {
+    text-align: left;
+}
+
+.heading-bottom-margin {
+    margin-bottom: 0px !important;
+}
+
+.news-card .ant-card-head-title,
+.news-card .ant-card-meta-title {
+    white-space: normal !important;
+}
+
+.big-news-grid {
+    text-align: justify;
+    margin: 12px 0px !important;
+    border-radius: 16px !important;
+}
+
+
+.news-card .ant-card-actions {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.big-news-grid .ant-card-meta-description {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #5B5F6B;
+}
+
+.big-news-grid .date-sect {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353843;
+    margin: 0px;
+}
+
+.big-news-grid .ant-card-actions {
+    margin: 0px 24px;
+    border-top: 0.5px solid #9599A4;
+}
+
+.big-news-grid .news-title-logo {
+    height: 80px;
+    width: 120px;
+    padding-right: 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 360px) and (max-width: 767.98px) {
+    /* .big-news-grid {
+        min-height: 655;
+        max-height: 840;
+    } */
+
+    .big-news-grid .ant-card-meta-title {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        color: #21275C;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 1023.98px) {
+    /* .big-news-grid {
+        min-height: 675px;
+        max-height: 800px;
+    } */
+
+    .big-news-grid .ant-card-meta-title {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        color: #21275C;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1024px) and (max-width: 1919.98px) {
+    /* .big-news-grid {
+        min-height: 733px;
+        max-height: 905px;
+    } */
+
+    .big-news-grid .ant-card-meta-title {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        color: #21275C;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1920px) {
+    /* .big-news-grid {
+        min-height: 733px;
+        max-height: 905px;
+    } */
+
+    .big-news-grid .ant-card-meta-title {
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        color: #21275C;
+    }
+}

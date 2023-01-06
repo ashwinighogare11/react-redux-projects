@@ -1,0 +1,13 @@
+.news-content{
+    text-align: justify;
+}
+
+.news-sect{
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.auto-sect{
+    max-height: 80vh;
+    overflow: auto;
+}

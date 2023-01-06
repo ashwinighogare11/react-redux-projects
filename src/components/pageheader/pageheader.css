@@ -1,0 +1,244 @@
+.header-menu {
+    width: 100%;
+    background-color: #061037;
+}
+
+.header-menu ul {
+    width: 100% !important;
+    background-color: #061037;
+}
+
+.bw-header .ant-menu-submenu {
+    color: white;
+    padding: 0px 8px !important;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 26px; */
+}
+
+.bw-header .header-btn {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: unset !important;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;    
+}
+
+.bw-header .header-btn:hover,
+.bw-header .header-btn1:hover {
+    background: #242F9B !important;
+    color: white !important;
+}
+
+.bw-header .header-btn1,
+.bw-header .anticon-menu {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+
+.bw-header .header-search {
+    /* width: 193px; */
+    height: 40px;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 80px;
+    background: unset;
+    vertical-align: super;
+}
+
+.bw-header .header-search:hover {
+    background-color: #0D347E;
+    border: 1px solid #FFFFFF;
+}
+
+.bw-header .header-select .ant-select-selector {
+    background: unset !important;
+    border: unset !important;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.bw-header .header-select .ant-select-arrow {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.bw-header .header-search input {
+    background: #061037;
+    color: white;
+}
+
+.bw-header .header-search input::placeholder {
+    color: white;
+}
+
+.bw-header .header-search .ant-input:hover,
+.bw-header .header-search .ant-input-affix-wrapper:hover {
+    background-color: #0D347E !important;
+}
+
+.bw-header .header-search .ant-input-prefix {
+    color: white !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.bw-header .ant-menu-submenu-selected,
+.bw-header .ant-menu-submenu:hover {
+    color: #FFFFFF !important;
+    background-color: #242F9B !important;
+}
+
+.ant-menu-submenu-popup {
+    border-radius: unset;
+}
+
+.ant-menu-submenu-popup,
+.ant-menu-submenu-popup ul,
+.ant-menu-submenu-popup ul li {
+    color: #FFFFFF !important;
+    background-color: #061037 !important;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7D96A9;
+}
+
+.bw-header .ant-menu-submenu-selected>.ant-menu-submenu-title {
+    color: white;
+}
+
+.bw-header .ant-menu-submenu-selected:after,
+.bw-header .ant-menu-submenu:hover::after,
+.bw-header .ant-menu-submenu-active:after,
+.bw-header .ant-menu-horizontal>.ant-menu-submenu:after {
+    border-bottom: none !important;
+}
+
+.bw-header .ant-menu-submenu:hover .ant-menu-title-content {
+    color: white !important;
+}
+
+.bw-header .left-align {
+    text-align: start;
+}
+
+.bw-header .ant-menu-vertical {
+    background-color: #061037 !important;
+}
+
+.bw-header .bw-logo {
+    vertical-align: middle;
+}
+
+.bw-header .show-search {
+    display: none;
+    color: white;
+}
+
+.bw-header .btn-sect {
+    display: flex;
+    align-items: center;
+}
+
+.bw-header .ant-menu-title-content .anticon-down {
+    color: #5F6594;
+}
+
+.hide-arrow-element {
+    display: inline;
+    vertical-align: middle;
+}
+
+.bw-header .hr-line {
+    height: 16px;
+    border-left: 0.5px solid #727682;
+    border-right: unset;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 360px) and (max-width: 767.98px) {
+    .bw-header .bw-logo {
+        width: 143px;
+        Height: 26px;
+    }
+
+    .hide-element {
+        visibility: hidden !important;
+    }
+
+    .bw-header .show-search {
+        display: unset;
+    }
+
+    .hide-arrow-element {
+        display: none;
+        vertical-align: middle;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 1023.98px) {
+    .bw-header .bw-logo {
+        width: 203px;
+        height: 38px;
+    }
+
+    .hide-lang-element {
+        display: none !important;
+    }
+
+    .hide-arrow-element {
+        display: none;
+        vertical-align: middle;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1024px) and (max-width: 1919.98px) {
+    .bw-header .bw-logo {
+        width: 210px;
+        height: 38px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1920px) {
+    .header-menu {
+        max-width: 1666px;
+        margin: 0 auto;
+        }
+    .bw-header .bw-logo {
+        width: 269px;
+        height: 50px;
+    } 
+    
+}
+
+
+
+
+    

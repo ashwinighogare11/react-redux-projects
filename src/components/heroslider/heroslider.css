@@ -1,0 +1,296 @@
+.slick-arrow.slick-prev {
+  z-index: 1;
+  left: 24px !important;
+}
+
+.slick-arrow.slick-next {
+  z-index: 1;
+  right: 40px !important;
+}
+
+.ant-carousel .slick-prev:before,
+.ant-carousel .slick-next:before {
+  content: "" !important;
+}
+
+
+.hero-slider .slider-dots li button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.hero-slider .slider-dots .slick-active,
+.hero-slider .slider-dots li {
+  width: 10px !important;
+}
+
+.hero-slider .ant-carousel {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  text-align: left;
+}
+
+.hero-slider .ant-carousel .slider-div {
+  min-height: 450px;
+}
+
+.hero-slider .ant-carousel .slider-content {
+  top: 5%;
+  position: inherit;
+  display: inline-block;
+}
+
+.hero-slider .ant-carousel .slider-title {
+  font-weight: 600;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+
+.hero-slider .ant-carousel .slider-desc {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #C9D9E9;
+  padding-bottom: 40px;
+}
+
+.hero-slider .ant-carousel .slider-btn {
+  background: #0e37e1;
+  border-radius: 40px;
+  color: #ffffff;
+  border: unset;
+  font-style: normal;
+}
+
+.hero-slider .ant-carousel .slider-btn:hover {
+  background: #072CC8;
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 360px) and (max-width: 767.98px) {
+  .hero-slider .ant-carousel {
+    height: 750px;
+    background-image: url("../../images/heroslider/hero_slider_dark_mobile.svg");
+  }
+
+  .hero-slider .ant-carousel .slider-content {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    top: 390px;
+    position: inherit;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .hero-slider .ant-carousel .slider-div {
+    min-height: 750px;
+  }
+
+  .hero-slider .ant-carousel .slider-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+  }
+
+  .hero-slider .ant-carousel .slider-btn {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    height: 44px;
+    width: 274px;
+  }
+
+  .hero-slider .ant-carousel .arrow-icon {
+    color: #EBA015;
+    width: 37px;
+    padding-left: 9px;
+    height: 37px;
+    background: #2F455C;
+    border-radius: 50px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .hero-slider .ant-carousel .slider-desc {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #D4D6DD;
+    padding-bottom: 24px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .hero-slider .ant-carousel {
+    height: 475px;
+    background-image: url("../../images/heroslider/hero_slider_dark_tablet.svg");
+  }
+
+  .hero-slider .ant-carousel .slider-div {
+    min-height: 475px;
+  }
+
+  .hero-slider .ant-carousel .slider-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    padding-top: 5%;
+  }
+
+  .hero-slider .ant-carousel .slider-btn {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    height: 54px;
+    width: 256px;
+  }
+
+  .hero-slider .ant-carousel .arrow-icon {
+    color: #EBA015;
+    width: 37px;
+    padding-left: 9px;
+    height: 37px;
+    background: #2F455C;
+    border-radius: 50px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .hero-slider .ant-carousel .slider-desc {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #D4D6DD;
+    padding-bottom: 40px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1919.98px) {
+  .hero-slider .ant-carousel {
+    height: 475px;
+    background-image: url("../../images/heroslider/hero_slider_dark_desktop.svg");
+  }
+
+  .hero-slider .ant-carousel .slider-div {
+    min-height: 475px;
+  }
+
+  .hero-slider .ant-carousel .slider-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    padding-top: 8%;
+  }
+
+  .hero-slider .ant-carousel .slider-btn {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    height: 54px;
+    width: 256px;
+  }
+
+  .hero-slider .ant-carousel .arrow-icon {
+    color: #EBA015;
+    width: 37px;
+    padding-left: 10px;
+    height: 37px;
+    background: #2F455C;
+    border-radius: 50px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .hero-slider .ant-carousel .slider-desc {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #D4D6DD;
+    padding-bottom: 40px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1920px) {
+  .hero-slider .ant-carousel {
+    max-width: 2070px;
+    margin: 0 auto;
+    height: 475px;
+    background-image: url("../../images/heroslider/hero_slider_dark_large.svg");
+  }
+
+  .hero-slider .ant-carousel .slider-div {
+    min-height: 475px;
+  }
+
+  .hero-slider .ant-carousel .slider-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    padding-top: 10%;
+  }
+
+  .hero-slider .ant-carousel .slider-btn {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    height: 72px;
+    width: 320px;
+  }
+
+  .hero-slider .ant-carousel .arrow-icon {
+    color: #eba015;
+    width: 51px;
+    padding-left: 10px;
+    height: 51px;
+    background: #2f455c;
+    border-radius: 50px;
+    line-height: 56px;
+    font-size: 32px;
+  }
+
+  .slick-arrow.slick-next {
+    right: 60px !important;
+  }
+
+  .hero-slider .ant-carousel .slider-desc {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #D4D6DD;
+    padding-bottom: 40px;
+  }
+
+}

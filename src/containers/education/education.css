@@ -1,0 +1,8 @@
+.post-content{
+    text-align: justify;
+}
+
+.edu-sect{
+    max-height: 80vh;
+    overflow: auto;
+}
